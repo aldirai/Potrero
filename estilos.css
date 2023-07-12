@@ -1,6 +1,6 @@
 @font-face {
     font-family: "principal";
-    src: url("./fuentes/titulo.ttf")
+    src: url("../fuentes/titulo.ttf")
     format('truetype');
 }
 h2 {
