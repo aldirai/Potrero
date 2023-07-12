@@ -1,3 +1,30 @@
+@font-face {
+    font-family: "principal";
+    src: url("./fuentes/titulo.ttf")
+    format('truetype');
+}
+h2 {
+    font-size: 1.8rem;
+    font-family: "principal";
+    font-weight: lighter;
+}
+h3 {
+    font-size: 1.5rem;
+    font-family: "principal";
+    font-weight: lighter;
+}
+ul { 
+    font-size: 1.2rem;
+
+}
+
+ol {
+    font-size: 1.1rem;
+
+}
+
+    
+
 header {
     height: 150px;
     color: rgb(255, 244, 207);
@@ -26,6 +53,8 @@ header {
 }
 
 .titulo {
+    font-size: 3.5rem;
+    font-family: "principal";
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -45,8 +74,9 @@ header {
 }
 
 nav {
+    font-family: 'Fasthand', cursive;
     height: 50px;
-    font-size: 25px;
+    font-size: 30px;
     padding: 14px;
     margin: 10px;
     display: flex;
@@ -59,7 +89,7 @@ nav {
 }
 
 .Ingredientes {
-    width: 100%;
+    width: 98vw;
     display: flex;
     justify-content: space-around;
     align-items: start;
@@ -70,6 +100,9 @@ nav {
     width: 300px;
     height: 300px;
 }
+.imghumita {
+    width: 20vw;
+}
 
 .pasos {
     display: flex;
@@ -77,10 +110,17 @@ nav {
     align-items: center;
 
 }
+.textopasos {
+    width: 50vw;
+}
+.videopasos {
+    width: 35vw;
+}
 
 .pasos iframe {
-    width: 316px;
-    height: 255px;
+   
+    width: 350px;
+    height: 270px;
 }
 
 
