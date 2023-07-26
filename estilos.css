@@ -22,7 +22,9 @@ ol {
     font-size: 1.1rem;
 
 }
-
+a {
+    color: orange;
+}
     
 
 header {
@@ -125,8 +127,8 @@ nav {
 
 
 body {
-    background-color: white;
-    background-image: url(./imagenes/arg.jpg);
+    background: linear-gradient(273deg, #e5c464, #fff4e1);
+
 
 
 
