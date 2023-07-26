@@ -103,6 +103,10 @@ nav {
     width: 300px;
     height: 300px;
 }
+
+.Ingredientes img:hover {
+    transform: scale(2.5);
+}
 .imghumita {
     width: 20vw;
 }
