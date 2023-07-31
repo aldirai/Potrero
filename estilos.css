@@ -3,6 +3,12 @@
     src: url("../fuentes/titulo.ttf")
     format('truetype');
 }
+@media (max-width: 575px) {
+  body {
+       background: linear-gradient (#fd1d1d);
+  }
+}
+
 h2 {
     font-size: 1.8rem;
     font-family: "principal";
