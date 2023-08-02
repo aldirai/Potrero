@@ -237,3 +237,7 @@
         justify-content: space-around;
         align-items: center;
     }
+    .container {
+        display: grid;
+       
+    }
